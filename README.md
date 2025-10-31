@@ -8,8 +8,6 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     public static void main(String[] args) {
 
-      //  Thread customThread = Thread.currentThread();
-
         CustomThread customThread = new CustomThread();
         customThread.start();
 
